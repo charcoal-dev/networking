@@ -31,7 +31,7 @@ use PHPUnit\Framework\TestCase;
  * - Handling of whitespace in CIDR entries and IP addresses.
  * - Handling of out-of-range prefix values, ensuring invalid prefixes are skipped.
  */
-final  class CidrHelperTest extends TestCase
+final class CidrHelperTest extends TestCase
 {
     public function testIpInCidr_returnsFalseForInvalidIpInput(): void
     {
