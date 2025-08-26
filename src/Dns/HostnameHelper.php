@@ -107,6 +107,7 @@ abstract readonly class HostnameHelper
     /**
      * Reconstructs a hostname and optional port from the provided parts.
      * Returns the reassembled string or false on failure.
+     * @api
      */
     public static function rejoinValidatedParts(null|false|array $parts): string|false
     {
